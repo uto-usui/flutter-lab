@@ -19,6 +19,9 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.cyan,
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          foregroundColor: Colors.black,
+        ),
       ),
       home: MyHomePage(
           title: 'Flutter First Home Page',
